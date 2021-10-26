@@ -1,0 +1,24 @@
+.pictures__thumb {
+    position: relative;
+}
+.pictures-text {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(47, 48, 58, 0.8);
+    height: 70px;
+    bottom: 0;
+    @extend %flex-elem;
+    align-items: center;
+}
+.pictures-text__title {
+    font-family: Roboto;
+    font-style: normal;
+    @include font(14px, $btn-color, 16px, bold);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.pictures {
+    display: flex;
+    justify-content: space-between;
+}
