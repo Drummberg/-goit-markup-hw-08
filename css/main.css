@@ -437,13 +437,14 @@ main {
 
 .section-box-title {
   font-family: inherit;
-  font-size: 36px;
+  font-size: 28px;
   color: #212121;
-  line-height: 42px;
-  font-weight: 700;
+  line-height: 33px;
+  font-weight: bold;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  padding-top: 60px;
 }
 
 .social-list__item {
@@ -589,15 +590,20 @@ main {
 }
 
 .item {
-  display: flex;
-  justify-content: space-between;
   padding-bottom: 94px;
+  margin: 0 15px;
 }
 
 .item__list {
+  width: 100%;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 30px;
+}
+
+.item__list:last-child {
+  margin-bottom: 60px;
 }
 
 .item-info__name {
