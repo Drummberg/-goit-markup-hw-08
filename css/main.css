@@ -610,8 +610,10 @@ main {
   background-color: #f5f4fa;
 }
 
-.item {
-  margin: 0 15px;
+@media screen and (min-width: 480px) {
+  .item {
+    margin: 0 15px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -627,6 +629,7 @@ main {
     display: flex;
     justify-content: space-between;
     padding-bottom: 94px;
+    margin: 0;
   }
 }
 
