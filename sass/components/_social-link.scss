@@ -9,6 +9,9 @@
     &:hover {
         fill: $btn-color;
     }
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 30px;
+    }
 }
 
 .social-link {
