@@ -14,6 +14,7 @@ span {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 a {
@@ -122,9 +123,27 @@ main {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .backdrop {
@@ -709,17 +728,16 @@ header .container {
 }
 
 .hero {
-  max-width: 1600px;
-  height: 600px;
+  width: 100%;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 200px 0;
+  padding: 118px 0;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 94px;
+  margin-bottom: 60px;
 }
 
 .hero-btnn {
@@ -740,18 +758,49 @@ header .container {
   background-color: #188ce8;
 }
 
+@media screen and (min-width: 1200px) {
+  .hero-btnn {
+    margin-right: 0;
+  }
+}
+
 .hero-title {
   text-align: center;
   letter-spacing: 0.06em;
-  font-size: 44px;
+  font-size: 26px;
   color: #ffffff;
-  line-height: 1.36;
+  line-height: 1.62;
   font-weight: 900;
   text-transform: uppercase;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  max-width: 696px;
-  display: block;
+  margin: 0 auto 30px auto;
+  width: 360px;
+}
+
+@media screen and (min-width: 480px) {
+  .hero-title {
+    text-align: center;
+    letter-spacing: 0.06em;
+    font-size: 26px;
+    color: #ffffff;
+    line-height: 1.62;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0 auto 30px auto;
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    font-size: 44px;
+    color: #ffffff;
+    line-height: 1.36;
+    font-weight: 900;
+    width: 696px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: block;
+  }
 }
 
 .clients-box {
