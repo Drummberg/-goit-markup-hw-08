@@ -443,7 +443,6 @@ main {
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -547,6 +546,12 @@ main {
 
 .peculiarities__antena {
   align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .reviews {
+    display: none;
+  }
 }
 
 .pictures__thumb {
