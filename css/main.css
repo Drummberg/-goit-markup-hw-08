@@ -14,7 +14,6 @@ span {
 
 img {
   display: block;
-  max-width: 100%;
 }
 
 a {
@@ -458,6 +457,12 @@ main {
   fill: #ffffff;
 }
 
+@media screen and (min-width: 1200px) {
+  .social-list__item {
+    margin-bottom: 30px;
+  }
+}
+
 .social-link {
   width: 44px;
   height: 44px;
@@ -605,6 +610,10 @@ main {
   background-color: #f5f4fa;
 }
 
+.item {
+  margin: 0 15px;
+}
+
 @media screen and (min-width: 768px) {
   .item {
     display: flex;
@@ -658,6 +667,13 @@ main {
 @media screen and (min-width: 1200px) {
   .item__list:nth-child(1) {
     margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .item__img {
+    width: 450px;
+    height: 460px;
   }
 }
 
