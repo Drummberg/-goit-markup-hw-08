@@ -428,6 +428,13 @@ main {
   justify-content: center;
 }
 
+@media screen and (min-width: 768px) {
+  .section-title {
+    margin-left: 0;
+    display: block;
+  }
+}
+
 .section-box-title {
   font-family: inherit;
   font-size: 36px;
@@ -773,6 +780,7 @@ header .container {
 @media screen and (min-width: 1200px) {
   .hero {
     margin-bottom: 94px;
+    padding: 200px 0;
   }
 }
 
