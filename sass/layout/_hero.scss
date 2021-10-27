@@ -17,7 +17,9 @@
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 60px;
-    // margin-bottom: 94px;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 94px;
+    }
 }
 .hero-btnn {
     font-family: inherit;
