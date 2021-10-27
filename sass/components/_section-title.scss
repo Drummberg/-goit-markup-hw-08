@@ -14,8 +14,9 @@
 }
 .section-box-title {
     font-family: inherit;
-    @include font(36px, $primary-title-color, 42px, 700);
+    @include font(28px, $primary-title-color, 33px, bold);
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    padding-top: 60px;
 }
