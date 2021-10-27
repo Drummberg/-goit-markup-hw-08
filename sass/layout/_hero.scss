@@ -56,6 +56,8 @@
         width: 360px;
     }
     @media screen and (min-width: 1200px) {
+        text-align: center;
+        letter-spacing: 0.06em;
         @include font(44px, $btn-color, 1.36, 900);
         width: 696px;
         margin: 0 auto;
