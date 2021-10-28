@@ -175,7 +175,8 @@ main {
 
 .modal {
   position: relative;
-  width: 528px;
+  width: 450px;
+  height: 609px;
   min-height: 581px;
   background-color: #ffffff;
   border-radius: 4px;
@@ -187,7 +188,7 @@ main {
   font-style: normal;
   font-size: 20px;
   color: #212121;
-  line-height: 23px;
+  line-height: 30px;
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.03em;
@@ -352,7 +353,7 @@ main {
 .check-text {
   font-family: Roboto;
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
   color: #757575;
   line-height: 1.71;
   font-weight: normal;
@@ -386,7 +387,7 @@ main {
 .check-text .check-text-line {
   font-family: Roboto;
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
   color: #2196f3;
   line-height: 1.71;
   font-weight: normal;
