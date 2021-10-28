@@ -1,5 +1,7 @@
 header {
     border-bottom: 1px solid #ececec;
+    display: flex;
+    justify-content: space-between;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -16,11 +18,10 @@ header {
     font-family: 'Raleway', sans-serif;
     display: flex;
     align-items: center;
-    margin-top: 24px;
-    margin-bottom: 25px;
-    margin-right: 93px;
+    margin: 16px 0 16px 15px;
+    // margin-right: 93px;
     font-style: normal;
-    @include font(26px, $active-color, 1.2, 700);
+    @include font(24px, $active-color, 28px, bold);
     letter-spacing: 0.03em;
 }
 .logo_white {
@@ -37,6 +38,15 @@ header .container {
     display: flex;
     justify-content: space-between;
 }
+.nav {
+    justify-content: space-between;
+    width: 100%;
+}
+.contacts {
+    @media screen and (min-width: 480px) {
+        display: none;
+    }
+}
 .contacts__link {
     color: $primary-title-color;
     &:not(:last-child) {
@@ -47,6 +57,9 @@ header .container {
     }
 }
 .site-nav {
+    @media screen and (min-width: 480px) {
+        display: none;
+    }
     margin-right: 50px;
 }
 
