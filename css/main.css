@@ -634,6 +634,7 @@ main {
 
 .section-item {
   background-color: #f5f4fa;
+  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 480px) {
@@ -697,6 +698,18 @@ main {
 @media screen and (min-width: 1200px) {
   .item__list:nth-child(1) {
     margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .item__list:nth-child(3) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .item__list:last-child {
+    margin-bottom: 0;
   }
 }
 
