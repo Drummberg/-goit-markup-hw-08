@@ -16,7 +16,9 @@
 }
 .modal {
     position: relative;
-    width: 528px;
+    width: 450px;
+    height: 609px;
+    // width: 528px;
     min-height: 581px;
     background-color: $btn-color;
     border-radius: 4px;
@@ -25,7 +27,7 @@
 .modal__title {
     font-family: Roboto;
     font-style: normal;
-    @include font(20px, $primary-title-color, 23px, bold);
+    @include font(20px, $primary-title-color, 30px, bold);
     text-align: center;
     letter-spacing: 0.03em;
     padding-bottom: 12px;
@@ -170,7 +172,7 @@
 .check-text {
     font-family: Roboto;
     font-style: normal;
-    @include font(14px, $secondary-title-color, 1.71, normal);
+    @include font(12px, $secondary-title-color, 1.71, normal);
     letter-spacing: 0.03em;
     display: flex;
     position: relative;
@@ -197,7 +199,7 @@
 .check-text .check-text-line {
     font-family: Roboto;
     font-style: normal;
-    @include font(14px, $active-color, 1.71, normal);
+    @include font(12px, $active-color, 1.71, normal);
     letter-spacing: 0.03em;
     text-decoration-line: underline;
 }
