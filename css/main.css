@@ -177,10 +177,16 @@ main {
   position: relative;
   width: 450px;
   height: 609px;
-  min-height: 581px;
   background-color: #ffffff;
   border-radius: 4px;
   padding: 40px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .modal__title {
@@ -193,6 +199,12 @@ main {
   text-align: center;
   letter-spacing: 0.03em;
   padding-bottom: 12px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal__title {
+    line-height: 23px;
+  }
 }
 
 .modal-input {
@@ -364,6 +376,15 @@ main {
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 1200px) {
+  .check-text {
+    font-size: 14px;
+    color: #757575;
+    line-height: 24px;
+    font-weight: normal;
+  }
+}
+
 .check-text span {
   width: 16px;
   height: 15px;
@@ -393,6 +414,15 @@ main {
   font-weight: normal;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
+}
+
+@media screen and (min-width: 1200px) {
+  .check-text .check-text-line {
+    font-size: 14px;
+    color: #2196f3;
+    line-height: 24px;
+    font-weight: normal;
+  }
 }
 
 .check-icon {
