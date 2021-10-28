@@ -40,7 +40,9 @@
         margin-left: 0;
     }
 }
-
+.peculiarities__list:last-child {
+    margin-bottom: 106px;
+}
 .peculiarities__icon {
     @extend %flex-elem;
     align-items: center;
@@ -52,6 +54,7 @@
     // width: 270px;
     margin-bottom: 30px;
 }
+
 .peculiarities__antena {
     align-items: center;
 }
