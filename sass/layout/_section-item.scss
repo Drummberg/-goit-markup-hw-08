@@ -1,5 +1,6 @@
 .section-item {
     background-color: #f5f4fa;
+    padding-bottom: 60px;
 }
 
 .item {
@@ -46,6 +47,16 @@
 .item__list:nth-child(1) {
     @media screen and (min-width: 1200px) {
         margin-left: 0;
+    }
+}
+.item__list:nth-child(3) {
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+    }
+}
+.item__list:last-child {
+    @media screen and (min-width: 480px) {
+        margin-bottom: 0;
     }
 }
 .item__img {
