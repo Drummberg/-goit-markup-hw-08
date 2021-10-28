@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+.menu__toggle:hover,
+.menu__toggle:focus {
+    color: $active-color;
+}
