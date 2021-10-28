@@ -18,8 +18,11 @@
     position: relative;
     width: 450px;
     height: 609px;
-    // width: 528px;
-    min-height: 581px;
+    @media screen and (min-width: 1200px) {
+        width: 528px;
+        height: 581px;
+    }
+
     background-color: $btn-color;
     border-radius: 4px;
     padding: 40px;
@@ -28,6 +31,9 @@
     font-family: Roboto;
     font-style: normal;
     @include font(20px, $primary-title-color, 30px, bold);
+    @media screen and (min-width: 1200px) {
+        line-height: 23px;
+    }
     text-align: center;
     letter-spacing: 0.03em;
     padding-bottom: 12px;
@@ -173,6 +179,9 @@
     font-family: Roboto;
     font-style: normal;
     @include font(12px, $secondary-title-color, 1.71, normal);
+    @media screen and (min-width: 1200px) {
+        @include font(14px, $secondary-title-color, 24px, normal);
+    }
     letter-spacing: 0.03em;
     display: flex;
     position: relative;
@@ -200,6 +209,9 @@
     font-family: Roboto;
     font-style: normal;
     @include font(12px, $active-color, 1.71, normal);
+    @media screen and (min-width: 1200px) {
+        @include font(14px, $active-color, 24px, normal);
+    }
     letter-spacing: 0.03em;
     text-decoration-line: underline;
 }
