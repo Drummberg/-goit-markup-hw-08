@@ -1,9 +1,12 @@
 .menu {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: space-between;
 }
 .menu__toggle {
+    position: absolute;
+    top: 10px;
+    right: 15px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
