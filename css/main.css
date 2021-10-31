@@ -103,6 +103,64 @@ p {
   color: #2196f3;
 }
 
+.mobile-menu-contacts {
+  padding-bottom: 32px;
+}
+
+.mobile-menu-contacts:nth-last-child(1) {
+  padding-bottom: 64px;
+}
+
+.mobile-menu-phone {
+  font-size: 34px;
+  color: #212121;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.mobile-menu-phone:hover, .mobile-menu-phone:focus {
+  color: #2196f3;
+}
+
+.mobile-menu-email {
+  font-size: 24px;
+  color: #757575;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.mobile-menu-email:hover, .mobile-menu-email:focus {
+  color: #2196f3;
+}
+
+.mobile-menu-2 {
+  position: relative;
+  display: block;
+  top: 200px;
+}
+
+.menu-social {
+  position: relative;
+  top: 30%;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.mobile-menu-social-link {
+  font-size: 18px;
+  color: #2196f3;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.line::after {
+  content: '';
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  transform: rotate(90deg);
+  margin: 10px;
+}
+
 body,
 main {
   margin: auto;
