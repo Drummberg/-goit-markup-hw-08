@@ -148,8 +148,18 @@
     <h2 class="section-box-title">Наша команда</h2>
         <ul class="item">
         <li class="item__list">
-            <img  class="item__img" src="./img/igor.jpg" alt="Igor"  >
-            <div class="item-info"> 
+            <picture>
+                <source 
+                    media="(min-width:1200px)" 
+                    srcset="/img/Comands/compressjpegDesktop/comands-desktop-foto1-1x-min.jpg 1x,
+                    /img/Comands/compressjpegDesktop/comands-desktop-foto1-2x-min.jpg 2x"/>
+                    <source 
+                    media="(min-width:768px)" 
+                    srcset="/img/Comands/compressjpegtab/comands-tab-foto1-1x-min.jpg 1x,
+                    /img/Comands/compressjpegtab/comands-tab-foto1-2x-min.jpg 2x"/>
+                    <img class="item__img" src="./img/igor.jpg" alt="Igor">
+            </picture>
+                    <div class="item-info"> 
             <h3 class="item-info__name">Игорь Демьяненко</h3>
             <p class="item-info__text" lang="en">Product Designer</p>
             </div>
@@ -185,8 +195,14 @@
             </ul>
         </li>
         <li class="item__list">
-            <img class="item__img" src="./img/olga.jpg" alt="Olga" >
-            <div class="item-info">
+            <picture>
+                <source media="(min-width:1200px)" srcset="/img/Comands/compressjpegDesktop/comands-desktop-foto2-1x-min.jpg 1x,
+                                /img/Comands/compressjpegDesktop/comands-desktop-foto2-2x-min.jpg 2x" />
+                <source media="(min-width:768px)" srcset="/img/Comands/compressjpegtab/comands-tab-foto2-1x-min.jpg 1x,
+                                /img/Comands/compressjpegtab/comands-tab-foto2-2x-min.jpg 2x" />
+                <img class="item__img" src="./img/olga.jpg" alt="Olga">
+            </picture>
+                    <div class="item-info">
             <h3 class="item-info__name">Ольга Репина</h3>
             <p class="item-info__text" lang="en">Frontend Developer</p>
             </div>
@@ -222,8 +238,14 @@
             </ul>
         </li>
         <li class="item__list">
-            <img class="item__img" src="./img/nikolay.jpg" alt="Nikolay">
-            <div class="item-info">
+            <picture>
+                <source media="(min-width:1200px)" srcset="/img/Comands/compressjpegDesktop/comands-desktop-foto3-1x-min.jpg 1x,
+                                            /img/Comands/compressjpegDesktop/comands-desktop-foto3-2x-min.jpg 2x" />
+                <source media="(min-width:768px)" srcset="/img/Comands/compressjpegtab/comands-tab-foto3-1x-min.jpg 1x,
+                                            /img/Comands/compressjpegtab/comands-tab-foto3-2x-min.jpg 2x" />
+                <img class="item__img" src="./img/nikolay.jpg" alt="Nikolay">
+            </picture>
+                <div class="item-info">
             <h3 class="item-info__name">Николай Тарасов</h3>
             <p class="item-info__text" lang="en">Marketing</p>
             </div>
@@ -259,8 +281,14 @@
             </ul>
         </li>
         <li class="item__list">
-            <img class="item__img" src="./img/mikhail.jpg" alt="Michail" >
-            <div class="item-info">
+            <picture>
+                <source media="(min-width:1200px)" srcset="/img/Comands/compressjpegDesktop/comands-desktop-foto4-1x-min.jpg 1x,
+                                                        /img/Comands/compressjpegDesktop/comands-desktop-foto4-2x-min.jpg 2x" />
+                <source media="(min-width:768px)" srcset="/img/Comands/compressjpegtab/comands-tab-foto4-1x-min.jpg 1x,
+                                                        /img/Comands/compressjpegtab/comands-tab-foto4-2x-min.jpg 2x" />
+                <img class="item__img" src="./img/mikhail.jpg" alt="Michail">
+            </picture>
+                    <div class="item-info">
             <h3 class="item-info__name">Михаил Ермаков</h3>
             <p class="item-info__text" lang="en">UI Designer</p>
             </div>
@@ -350,7 +378,7 @@
 </section>
 </main>
 <!--Подвал -->
-<!-- <footer class="footer">
+<footer class="footer">
     <div class="wrap-footer">
         <div class="container wrap-footer-container">
             <div class="footer-left-box">
@@ -419,7 +447,7 @@
                     </div>
                     </div>
                     </div>
-</footer> -->
+</footer>
 
 <div class="menu-container js-menu-container" id="mobile-menu">
     <button class="menu__toggle js-close-menu">
