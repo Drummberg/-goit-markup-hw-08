@@ -46,6 +46,12 @@ p {
   justify-content: space-between;
 }
 
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
 .menu__toggle {
   position: absolute;
   top: 10px;
@@ -76,6 +82,12 @@ p {
   z-index: 999;
   transform: translateX(100%);
   transition: transform 500ms ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-container {
+    display: none;
+  }
 }
 
 .menu-container.is-open {
@@ -967,9 +979,16 @@ header .container {
   width: 100%;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .contacts {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contacts {
+    display: block;
+    padding: 21px 15px 21px 0;
   }
 }
 
@@ -978,17 +997,18 @@ header .container {
 }
 
 .contacts__link:not(:last-child) {
-  display: flex;
+  display: block;
   align-items: center;
-  margin-right: 50px;
+  flex-wrap: wrap;
   color: #757575;
 }
 
 .site-nav {
-  margin-right: 50px;
+  margin-right: 84px;
+  margin-top: 32px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .site-nav {
     display: none;
   }
@@ -1014,13 +1034,12 @@ header .container {
 
 .contacts__link {
   position: relative;
-  display: flex;
+  display: block;
   font-size: 14px;
   color: #212121;
   line-height: 16px;
   font-weight: 500;
   letter-spacing: 0.02em;
-  padding: 32px 0;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1028,6 +1047,7 @@ header .container {
 
 .contacts__link:not(:last-child) {
   color: #757575;
+  padding-bottom: 10px;
 }
 
 .contacts__links1 {
