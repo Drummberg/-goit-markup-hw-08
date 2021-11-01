@@ -67,6 +67,7 @@ footer .container {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: flex;
+    justify-content: center;
     padding-bottom: 20px;
 }
 .social-box__link {
@@ -90,15 +91,18 @@ footer .container {
 }
 .social-container {
     width: 206px;
-    margin-left: 70px;
+    // margin-left: 70px;
     margin-top: 68px;
 }
 .wrap-footer-container {
-    display: flex;
+    display: block;
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
 }
 .footer-form {
-    margin-top: 72px;
-    margin-left: 93px;
+    margin-top: 60px;
+    // margin-left: 93px;
 }
 .footer-form__title {
     font-family: inherit;
@@ -107,6 +111,7 @@ footer .container {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: flex;
+    justify-content: center;
     padding-bottom: 20px;
 }
 .footer-btn {
