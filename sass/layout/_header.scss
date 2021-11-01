@@ -43,24 +43,30 @@ header .container {
     width: 100%;
 }
 .contacts {
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
         display: none;
+    }
+    @media screen and (min-width: 768px) {
+        display: block;
+        padding: 21px 15px 21px 0;
     }
 }
 .contacts__link {
     color: $primary-title-color;
     &:not(:last-child) {
-        display: flex;
+        display: block;
         align-items: center;
-        margin-right: 50px;
+        flex-wrap: wrap;
+        // margin-right: 15px;
         color: $secondary-title-color;
     }
 }
 .site-nav {
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
         display: none;
     }
-    margin-right: 50px;
+    margin-right: 84px;
+    margin-top: 32px;
 }
 
 .header-contacts {
@@ -80,15 +86,15 @@ header .container {
 }
 .contacts__link {
     position: relative;
-    display: flex;
+    display: block;
     @include font(14px, $primary-title-color, 16px, 500);
     letter-spacing: 0.02em;
-    padding: 32px 0;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     &:not(:last-child) {
         color: $secondary-title-color;
+        padding-bottom: 10px;
     }
 }
 
