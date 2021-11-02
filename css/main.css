@@ -934,9 +934,9 @@ header {
 .logo {
   font-family: 'Raleway', sans-serif;
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 25px;
-  margin-right: 93px;
+  margin-bottom: 20px;
   font-size: 26px;
   color: #2196f3;
   line-height: 1.2;
