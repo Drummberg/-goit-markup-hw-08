@@ -6,9 +6,10 @@ header {
 .logo {
     font-family: 'Raleway', sans-serif;
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 25px;
-    margin-right: 93px;
+    margin-bottom: 20px;
+    // margin-right: 93px;
     @include font(26px, $active-color, 1.2, 700);
     font-style: normal;
     letter-spacing: 0.03em;
