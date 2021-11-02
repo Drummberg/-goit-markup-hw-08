@@ -12,6 +12,12 @@ footer .container {
     // margin-top: 56px;
     // margin-bottom: 64px;
     letter-spacing: 0.03em;
+    @media screen and (min-width: 768px) {
+        display: inline-block;
+        margin-top: 72px;
+        margin-bottom: 60px;
+        margin-left: 72px;
+    }
 }
 .footer-text {
     width: 231px;
@@ -97,21 +103,29 @@ footer .container {
 .social-section,
 .address-section {
     @extend %flex-elem;
+    @media screen and (min-width: 768px) {
+    }
 }
 .social-container {
     width: 206px;
-    // margin-left: 70px;
-    // margin-top: 68px;
+    @media screen and (min-width: 768px) {
+        margin-left: 165px;
+        margin-top: 77px;
+    }
 }
 .wrap-footer-container {
     display: block;
     @media screen and (min-width: 768px) {
-        display: flex;
+        display: inline-flex;
+        flex-wrap: wrap;
     }
 }
 .footer-form {
     margin-top: 60px;
-
+    @media screen and (min-width: 768px) {
+        margin-left: 162px;
+        margin-top: 0;
+    }
     // margin-left: 93px;
 }
 .form-email {
@@ -150,6 +164,9 @@ footer .container {
     &:focus {
         background-color: $hover-color;
         cursor: pointer;
+    }
+    @media screen and (min-width: 768px) {
+        margin-bottom: 48px;
     }
 }
 .btn-footer-text {
