@@ -90,6 +90,9 @@
     letter-spacing: 0.03em;
     padding-left: 16px;
     margin-right: 0;
+    @media screen and (min-width: 1200px) {
+        width: 358px;
+    }
 }
 .form-username {
     margin-bottom: 10px;
