@@ -3,8 +3,9 @@ footer .container {
 }
 .footer-left-box {
     display: inline-block;
-    margin-top: 56px;
-    margin-bottom: 64px;
+    margin: 60px 0;
+    // margin-top: 56px;
+    // margin-bottom: 64px;
     letter-spacing: 0.03em;
     width: 231px;
 }
@@ -86,13 +87,14 @@ footer .container {
         background-color: $active-color;
     }
 }
-.social-section {
+.social-section,
+.address-section {
     @extend %flex-elem;
 }
 .social-container {
     width: 206px;
     // margin-left: 70px;
-    margin-top: 68px;
+    // margin-top: 68px;
 }
 .wrap-footer-container {
     display: block;
