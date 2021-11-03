@@ -91,6 +91,12 @@ p {
   }
 }
 
+@media screen and (max-width: 479px) {
+  .menu-container {
+    display: none;
+  }
+}
+
 .menu-container.is-open {
   transform: translateX(0);
 }
@@ -183,6 +189,7 @@ main {
   font-style: normal;
   font-size: 14px;
   display: block;
+  overflow-x: hidden;
 }
 
 .section {
@@ -265,12 +272,6 @@ main {
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
-}
-
-@media screen and (max-width: 480px) {
-  .container {
-    width: 480px;
-  }
 }
 
 @media screen and (min-width: 480px) {
