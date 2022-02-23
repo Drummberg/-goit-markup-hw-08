@@ -209,10 +209,6 @@ main {
   box-sizing: border-box;
 }
 
-body.dark {
-  background-color: #292c35;
-}
-
 .filters {
   width: 611px;
   padding-top: 94px;
